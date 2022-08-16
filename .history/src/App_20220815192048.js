@@ -1,4 +1,5 @@
 import "./App.css";
+
 import React, { useState } from "react";
 
 const App = () => {
@@ -18,11 +19,9 @@ const App = () => {
 
   return (
     <>
-      <div className="container">
-        <h1>{num}</h1>
-        <button onClick={incrementNum}>Increment</button>
-        <button onClick={decrementNum}>Decrement</button>
-      </div>
+      <h1>{num}</h1>
+      <button onClick={incrementNum}>Increment</button>
+      <button onClick={decrementNum}>Decrement</button>
     </>
   );
 };

@@ -18,11 +18,9 @@ const App = () => {
 
   return (
     <>
-      <div className="container">
-        <h1>{num}</h1>
-        <button onClick={incrementNum}>Increment</button>
-        <button onClick={decrementNum}>Decrement</button>
-      </div>
+      <h1>{num}</h1>
+      <button onClick={incrementNum}>Increment</button>
+      <button onClick={decrementNum}>Decrement</button>
     </>
   );
 };

@@ -24,6 +24,7 @@
     "extends": [
       "react-app",
       "react-app/jest"
+      "gsap":,
     ]
   },
   "browserslist": {
