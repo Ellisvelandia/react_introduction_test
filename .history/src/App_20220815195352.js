@@ -1,5 +1,6 @@
-import "./App.scss";
+import "./App.css";
 import React, { useState } from "react";
+import "./"
 
 const App = () => {
   const [num, changeNum] = useState(0);
@@ -20,8 +21,12 @@ const App = () => {
     <>
       <div className="container">
         <h1>{num}</h1>
-        <button className="button_I" onClick={incrementNum}>Increment</button>
-        <button className="button_D" onClick={decrementNum}>Decrement</button>
+        <button onClick={incrementNum}>
+          <span className="mas">Increment</span>
+        </button>
+        <button onClick={decrementNum}>
+          <span className="mas">Decrement</span>
+        </button>
       </div>
     </>
   );

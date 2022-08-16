@@ -21,7 +21,7 @@ const App = () => {
       <div className="container">
         <h1>{num}</h1>
         <button className="button_I" onClick={incrementNum}>Increment</button>
-        <button className="button_D" onClick={decrementNum}>Decrement</button>
+        <button id=""="button_D" onClick={decrementNum}>Decrement</button>
       </div>
     </>
   );
