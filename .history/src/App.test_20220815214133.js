@@ -10,5 +10,5 @@ test("renders content", () => {
 
   const component = render(<App app={app} />);
 
-  component.debug();
+  expect(component.container).toHaveTextContent("the sum is success");
 });
